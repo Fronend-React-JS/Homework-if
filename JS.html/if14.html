@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./if2.html">
+        let a = prompt("birinchi sonni kiriting")
+let b = prompt("ikkinchi sonni kiriting")
+let c = prompt("uchinchi sonni kiriting")
+
+a = a * 1;
+b = b * 1;
+c = c * 1;
+
+if (a == b && b == c ) {
+    document.write("Kichigi yo'q");
+} 
+else if (a > b && b > c) {
+    document.write("siz kiritgan sonlar orasida eng kichigi bu" + " " + c + " " + "eng kattasi esa" + a)
+} 
+else if (a > b && b < c && c > a) {
+    document.write("siz kiritgan sonlar orasida eng kichigi bu" + " " + b + " " + "eng kattasi esa" + c)
+} 
+else if (a < b && b > c && b > a) {
+    document.write("siz kiritgan sonlar orasida eng kichigi bu" + " " + a + " " + "eng kattasi esa" + b)
+} 
+ else if (a < b && b > c && b > a) {
+    document.write("siz kiritgan sonlar orasida eng kichigi bu" + " " + a + " " + "eng kattasi esa" + b)
+} 
+else if (a < b && b < c && a < c) {
+    document.write("siz kiritgan sonlar orasida eng kichigi bu" + " " + a + " " + "eng kattasi esa" + c)
+}
+else if (a > b && b < c && a > c) {
+    document.write("siz kiritgan sonlar orasida eng kichigi bu" + " " + b + " " + "eng kattasi esa" + a)
+} 
+    </script>
+  </body>
+</html>
